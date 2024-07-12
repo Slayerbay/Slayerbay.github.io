@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- 
+Student Name: Bailey Lucketta
+File Name: imdex.html
+Date: 06/03/2024
+-->
+<html lang="en">
+
+<head>
+    <title>Lucketta: Home</title>
+    <meta charset="utf-8">
+</head>
+
+<!-- Mobile Nav -->
+<nav class="mobile-nav">
+    <div id="menu-links">
+        <a href="index.html">Home</a> 
+        <a href="about.html">About Us</a>
+        <a href="classes.html">Classes</a>
+        <a href="nutrition.html">Nutrition</a>
+        <a href="about.html">Contact Us</a>
+    </div>
+    
+    <a class="menu-icon" onclick="hamburger()">
+        <div>&#9776;</div>
+    </a>
+</nav>
+
+<body>
+    
+    <!-- Use the header area for the website name or logo -->
+    <header>
+        <a href="index.html"><img src="images/dog_logo.jpg" alt="Lucketta dog logo"></a>
+        <link rel="stylesheet" href="css/styles.css">
+    </header>
+
+     <!-- Use the nav area to add hyperlinks to other pages within the website -->
+     <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="excercise.html">Excercise</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="temperament.html">Temperament</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Image -->
+    <div id="hero">
+        <img src="images/dog_mountain_hero.png" alt="Dog standing atop a mountain" class="tablet-desktop">
+    </div>
+
+    <!-- Use the main area to add the main content to the webpage -->
+    <main>
+        <section id="welcome">
+
+            <h2>Welcome to Lucketta Working Dogs</h2>
+
+            <h3>Where we hope to share our experiences raising and training our beligian malinois dogs.</h3>
+        </section>
+
+        <video controls poster="images/dog_mountain_long.jpg">
+            <source src="media/video.mp4" type="video/mp4">
+            <source src="media/video.webm" type="video/webm">
+            <track src="media/captions.vtt" kind="captions" srclang="en" label="Captions">
+            <track src="media/descriptions.vtt" kind="descriptions" srclang="en" label="English Descriptions">
+            <p>Your browser does not support the video element.</p>
+        </video>
+
+        <section id="intro">
+            <p>This website is intended to share my experiences raising and working with my belgian malinois Bodhi. In hopes that it can help future owners 
+                in their endeavor or inform potential owners in determining if the breed is right for them.</p>
+            <aside>
+                This information is only for inspirational purposes, all inexperienced owners are reccomended to seek professional help to learn more about working dogs before getting one.
+            </aside>
+        </section>
+
+    </main>
+    
+    <!-- Use the footer area to add webpage footer content -->
+    <footer>
+        <p>&copy; Copyright 2024. All Rights Reserved.</p>
+        <p><a href="mailto:admin@lucketta.net">admin@lucketta.net</a></p>
+    </footer>
+
+    <script src="scripts/script.js"></script> 
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- 
+Student Name: Bailey Lucketta
+File Name: contact.html
+Date: 06/03/2024
+-->
+<html lang="en">
+
+<head>
+    <title>Lucketta: Contact</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    
+    <!-- Use the header area for the website name or logo -->
+    <header>
+        <a href="index.html"><img src="images/dog_logo.jpg" alt="Lucketta dog logo"></a>
+        <link rel="stylesheet" href="css/styles.css">
+    </header>
+
+     <!-- Use the nav area to add hyperlinks to other pages within the website -->
+     <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="excercise.html">Excercise</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="temperament.html">Temperament</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Image -->
+    <div id="hero">
+        <img src="images/dog_mountain_hero.png" alt="Dog standing atop a mountain" class="tablet-desktop">
+    </div>
+
+    <!-- Use the main area to add the main content to the webpage -->
+    <main>
+        <div id="contact">
+
+            <h2>Questions? Contact us.</h2>
+            
+            <h4>Email us: <a href="mailto:admin@lucketta.net" class="contact-email-link">admin@lucketta.net</a></h4>
+
+            <h4>We are located in: Arvada, Colorado</h4>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98035.17521587532!2d-105.17153945!3d39.838402450000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b88bf184901ff%3A0x1f855e310a07f8ec!2sArvada%2C%20CO!5e0!3m2!1sen!2sus!4v1720127314435!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="form">
+            <h2>Complete our form below if you would like us to reach out to you.</h2>
+            <form class="form-grid"> <!-- Start Form -->
+                <fieldset>
+                    <legend>Your Information</legend>
+                    
+                    <label for="fName">First Name:</label>
+                    <input type="text" name="fName" id="fName" required>
+
+                    <label for="lName">Last Name:</label>
+                    <input type="text" name="lName" id="lName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <p>I would like more information about:</p>
+                    <label for="excercise"><input type="checkbox" name="interest" id="excercise" value="Excercise">Excercise</label>
+
+                    <label for="temp"><input type="checkbox" name="interest" id="temp" value="Temperament">Temperament</label>
+
+                    <label for="train"><input type="checkbox" name="interest" id="train" value="Training">Training</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Referral Source</legend>
+                    <label for="reference">How did you find us?</label>
+                    <select name="reference" id="reference"> 
+                        <option value="ad">Advertisement</option>
+                        <option value="friend">Friend</option>
+                        <option value="google">Google</option>
+                        <option value="social">Social Media</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="questions"> Questions?</label>
+                    <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                </fieldset>
+                
+                <input type="submit" id="submit" value ="Submit" class="btn"> 
+            </form>
+        </div>
+    </main>
+    
+    <!-- Use the footer area to add webpage footer content -->
+    <footer>
+        <p>&copy; Copyright 2024. All Rights Reserved.</p>
+        <p><a href="mailto:admin@lucketta.net">admin@lucketta.net</a></p>
+    </footer>
+
+</body>
+
+</html>
