@@ -131,7 +131,7 @@ article:nth-of-type(2){
 
 .frame {
     position: relative;
-    max-width: fit-content;
+    max-width: 260px;
     margin: 2% auto
 }
 
