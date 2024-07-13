@@ -313,20 +313,20 @@ footer p a{
         grid-column: 1 / span 3;
     }
 
-    #exercises{
+    #temperament{
         clear: left;
         border-top: 1px solid #000;
         border-bottom: 1px solid #000;
-        background: linear-gradient(to right, #ccc, #fff);
+        background: radial-gradient(circle, #fff, #B2A08A);
         background-color: #f2f2f2;
         padding: 1% 2%;
     }
 
-    #exercises dt {
+    #temperament dt {
         font-weight: bold;
     }
 
-    #exercises dd {
+    #temperament dd {
         padding: 0.5% 1% 2% 0;
     }
 
@@ -439,12 +439,6 @@ footer p a{
         opacity: 1;
         box-shadow: 8px 8px 10px #808080; 
         transform: translateY(10px);
-    }
-
-    #weights, #cardio, #training {
-        width: 29%;
-        float: left;
-        margin: 0 2%;
     }
 
     #exercises {
