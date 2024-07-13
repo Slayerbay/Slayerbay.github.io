@@ -129,9 +129,13 @@ article:nth-of-type(2){
     text-shadow: 5px 5px 8px #ccc; 
 }
 
+.training-box {
+    max-width:100%;
+}
+
 .frame {
     position: relative;
-    max-width: 450px;
+    max-width: 100%;
     margin: 2% auto
 }
 
