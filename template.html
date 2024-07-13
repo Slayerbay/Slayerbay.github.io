@@ -12,16 +12,31 @@ Date: 06/03/2024
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+<!-- Mobile Nav -->
+<nav class="mobile-nav">
+    <div id="menu-links">
+        <a href="index.html">Home</a> 
+        <a href="about.html">About Us</a>
+        <a href="classes.html">Classes</a>
+        <a href="nutrition.html">Nutrition</a>
+        <a href="about.html">Contact Us</a>
+    </div>
+    
+    <a class="menu-icon" onclick="hamburger()">
+        <div>&#9776;</div>
+    </a>
+</nav>
+
 <body>
     
     <!-- Use the header area for the website name or logo -->
-    <header>
+    <header id="l-logo">
         <a href="index.html"><img src="images/dog_logo.png" alt="Lucketta dog logo"></a>
         <link rel="stylesheet" href="css/styles.css">
     </header>
 
      <!-- Use the nav area to add hyperlinks to other pages within the website -->
-     <nav>
+     <nav class="tablet-desktop">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
