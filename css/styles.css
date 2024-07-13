@@ -154,12 +154,12 @@ article:nth-of-type(2){
 
 }
 
-#training1, #training2, #training3{
-    margin: 0 2%;
-}
-
 .round {
     border-radius: 8px;
+}
+
+.circle {
+    border-radius: 50%;
 }
 
 .external-link{
@@ -338,7 +338,7 @@ footer p a{
         width: 600px;
         height: 450px;
     }
-
+    
     /* Tablet Viewport: Style rules for table */
     table {
         border: 3px solid #524940;
@@ -439,10 +439,6 @@ footer p a{
         opacity: 1;
         box-shadow: 8px 8px 10px #808080; 
         transform: translateY(10px);
-    }
-
-    #exercises {
-        clear: left;
     }
 
     /* Desktop Viewport: Style rules for form elements */
