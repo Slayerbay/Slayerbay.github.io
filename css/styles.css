@@ -215,6 +215,18 @@ form #submit {
     border-radius: 10px;
 }
 
+aside {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 2%;
+    color:#fff;
+    background-color: rgba(82, 73, 64, 0.5);
+    box-shadow: 5px 5px 8px #000;
+    text-shadow: 5px 5px 5px #000;
+    border-radius: 15px;
+}
+
 /* Style rules for footer content */
 footer p{
     font-size: 0.75em;
@@ -290,18 +302,6 @@ footer p a{
     .pic-text {
         font-size: 1em;
         padding: 10px;
-    }
-
-    aside {
-        text-align: center;
-        font-size: 1.25em;
-        font-weight: bold;
-        padding: 2%;
-        color:#fff;
-        background-color: rgba(82, 73, 64, 0.5);
-        box-shadow: 5px 5px 8px #000;
-        text-shadow: 5px 5px 5px #000;
-        border-radius: 15px;
     }
 
     .grid-item4 {
