@@ -29,6 +29,8 @@ img, video {
 /* Style rules for mobile viewport */ 
  /* Style rule for header */
 header{
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
     background-color: #524940;
     height: 190px;
