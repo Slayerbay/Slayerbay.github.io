@@ -238,6 +238,10 @@ aside {
     width: 70%;
 }
 
+#about section{
+    padding-bottom: 5%;
+}
+
 #about img {
     margin: auto auto;
     width: 60%;
