@@ -232,6 +232,17 @@ aside {
     border-radius: 15px;
 }
 
+#about {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+#about img {
+    margin: auto auto;
+    width: 60%;
+}
+
 /* Style rules for footer content */
 footer p{
     font-size: 0.75em;
