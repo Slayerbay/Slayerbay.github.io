@@ -241,6 +241,7 @@ aside {
 #about img {
     margin: auto auto;
     width: 60%;
+    box-shadow: 10px 10px 10px #555555; 
 }
 
 /* Style rules for footer content */
