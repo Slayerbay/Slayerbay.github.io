@@ -1,5 +1,5 @@
 /*
-Student Name:
+Student Name: Bailey Lucketta
 File Name: script.js
 Date: 07/07/2024
 */
