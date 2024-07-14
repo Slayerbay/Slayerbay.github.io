@@ -235,7 +235,8 @@ aside {
 #about {
     text-align: center;
     margin: auto;
-    width: 70%;
+    width: 100%;
+    background: radial-gradient(circle, #fff, #CBBAA0);
 }
 
 #about section{
