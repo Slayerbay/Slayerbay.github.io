@@ -129,10 +129,6 @@ article:nth-of-type(2){
     text-shadow: 5px 5px 8px #ccc; 
 }
 
-.training-box {
-    max-width:100%;
-}
-
 .frame {
     position: relative;
     max-width: 100%;
@@ -245,7 +241,7 @@ aside {
 
 #about img {
     margin: auto auto;
-    width: 85%;
+    width: 65%;
     box-shadow: 10px 10px 10px #555555; 
 }
 
@@ -341,9 +337,11 @@ footer p a{
 
     #temperament dt {
         font-weight: bold;
+        font-size: 1.5em;
     }
 
     #temperament dd {
+        font-weight: bold;
         padding: 0.5% 1% 2% 0;
     }
 
@@ -394,12 +392,6 @@ footer p a{
         width: 70%;
         margin: 0 auto;
 
-    }
-
-    #about img {
-        margin: auto auto;
-        width: 70%;
-        box-shadow: 10px 10px 10px #555555; 
     }
 }
 
@@ -478,10 +470,10 @@ footer p a{
     .btn {
         grid-column: 1 / span 3;
     }
-}
 
-#about img {
-    width: 60%;
+    #about img {
+        width: 40%;
+    }
 }
 
 /* Media Query for Large Desktop Viewports */
