@@ -147,7 +147,6 @@ article:nth-of-type(2){
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
-
 }
 
 .round {
@@ -247,8 +246,23 @@ aside {
 }
 
 /* Style rules for temperament content */
-#temperament {
-    background-color: #fff;
+#temperament{
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: radial-gradient(circle, #fff, #B2A08A);
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#temperament dt {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#temperament dd {
+    font-weight: bold;
+    padding: 0.5% 1% 2% 0;
 }
 
 /* Style rules for footer content */
@@ -330,25 +344,6 @@ footer p a{
 
     .grid-item4 {
         grid-column: 1 / span 3;
-    }
-
-    #temperament{
-        clear: left;
-        border-top: 1px solid #000;
-        border-bottom: 1px solid #000;
-        background: radial-gradient(circle, #fff, #B2A08A);
-        background-color: #f2f2f2;
-        padding: 1% 2%;
-    }
-
-    #temperament dt {
-        font-weight: bold;
-        font-size: 1.5em;
-    }
-
-    #temperament dd {
-        font-weight: bold;
-        padding: 0.5% 1% 2% 0;
     }
 
     .tel-num {
