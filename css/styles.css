@@ -228,6 +228,7 @@ aside {
     border-radius: 15px;
 }
 
+/* Style rules for about content */
 #about {
     text-align: center;
     margin: auto;
@@ -243,6 +244,11 @@ aside {
     margin: auto auto;
     width: 65%;
     box-shadow: 10px 10px 10px #555555; 
+}
+
+/* Style rules for temperament content */
+#temperament {
+    background-color: #fff;
 }
 
 /* Style rules for footer content */
