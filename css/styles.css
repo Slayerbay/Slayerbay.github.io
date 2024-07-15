@@ -172,9 +172,9 @@ article:nth-of-type(2){
     text-decoration: none;
 }
 
-.map{
+.map {
     border: 2px solid #000;
-    width: 95%;
+    width: 80%;
     height: 50%;
 }
 
@@ -246,7 +246,7 @@ aside {
 }
 
 /* Style rules for temperament content */
-#temperament{
+#temperament {
     clear: left;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
