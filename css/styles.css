@@ -266,8 +266,8 @@ aside {
 }
 
 /* Style rules for footer content */
-footer p{
-    font-size: 0.75em;
+footer {
+    font-size: 1em;
     text-align: center;
     color: #fff;
     padding: 0 1em;
@@ -276,6 +276,12 @@ footer p{
 footer p a{
     color: #fff;
     text-decoration: none;
+}
+
+.social img {
+    display: inline-block;
+    padding: 0.5%;
+    margin: auto auto;
 }
 
 /* Media Query for Tablet Viewport */
