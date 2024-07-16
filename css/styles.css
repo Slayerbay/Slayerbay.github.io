@@ -1,6 +1,6 @@
  /*
   Author: Bailey Lucketta
-  Date:6/6/2024
+  Date:07/16/2024
   File Name: styles.css 
 */
 
@@ -76,10 +76,6 @@ main {
 
 video {
     margin: 0 auto 4%;
-}
-
-.mobile h3 {
-    text-shadow: 5px 5px 8px #ccc;
 }
 
 article {
@@ -251,7 +247,6 @@ aside {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     background: radial-gradient(circle, #fff, #B2A08A);
-    background-color: #f2f2f2;
     padding: 1% 2%;
 }
 
