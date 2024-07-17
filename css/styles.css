@@ -176,7 +176,7 @@ article:nth-of-type(2){
 
 #form {
     margin-top: 2%;
-    background-color: #B29778;
+    background-color: #6B8D53;
     padding: 2%;
     font-weight: bold;
 }
@@ -217,7 +217,7 @@ aside {
     font-weight: bold;
     padding: 2%;
     color:#fff;
-    background-color: rgba(82, 73, 64, 0.5);
+    background-color: #6B8D53;
     box-shadow: 5px 5px 8px #000;
     text-shadow: 5px 5px 5px #000;
     border-radius: 15px;
