@@ -370,16 +370,20 @@ footer p a{
         font-weight: bold;
         padding: 1%
     }
+    
+    thead th{
+        background-color: #524940;
+        color: #fff;
+        font-size: 1.15em;
+    }
+
+    tbody {
+        text-align: center;
+    }
 
     th, td {
         border: 1px solid #524940;
         padding: 2%;
-    }
-
-    th {
-        background-color: #524940;
-        color: #fff;
-        font-size: 1.15em;
     }
 
     tr {
