@@ -252,21 +252,11 @@ aside {
 }
 
 #temperament dt {
-
     font-size: 1.5em;
 }
 
 #temperament dd {
-
     padding: 0.5% 1% 2% 0;
-}
-
-#question-sticky {
-    position: sticky;
-    position: -webkit-sticky;
-    bottom: 0;
-    float: right;
-    opacity: 0.90;
 }
 
 /* Style rules for footer content */
@@ -408,6 +398,14 @@ footer p a{
         width: 70%;
         margin: 0 auto;
 
+    }
+    
+    #question-sticky {
+        position: sticky;
+        position: -webkit-sticky;
+        bottom: 0;
+        float: right;
+        opacity: 0.90;
     }
 }
 
