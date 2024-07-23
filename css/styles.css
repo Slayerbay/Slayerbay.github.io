@@ -248,15 +248,16 @@ aside {
     border-bottom: 1px solid #000;
     background: radial-gradient(circle, #fff, #B2A08A);
     padding: 1% 2%;
+    font-weight: bold;
 }
 
 #temperament dt {
-    font-weight: bold;
+
     font-size: 1.5em;
 }
 
 #temperament dd {
-    font-weight: bold;
+
     padding: 0.5% 1% 2% 0;
 }
 
