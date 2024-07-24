@@ -78,26 +78,6 @@ video {
     margin: 0 auto 4%;
 }
 
-article {
-    padding: 2%;
-}
-
-article h3 {
-    text-align: center;
-}
-
-article img {
-    margin: 0 auto;
-}
-
-article ul {
-    margin-left: 10%;
-}
-
-article:nth-of-type(2){
-    background-color: rgba(204, 204, 204, 0.3);
-}
-
 .tel-link {
     background-color: #6B8D53;
     padding: 2%;
@@ -407,6 +387,12 @@ footer p a{
         float: right;
         opacity: 0.90;
     }
+
+    .close-button { 
+        color: red; 
+        font-size: 3em;
+        float: right;
+    }
 }
 
 /* Media Query for Desktop Viewport */
@@ -450,10 +436,6 @@ footer p a{
 
     main h1 {
         font-size: 1.8em;
-    }
-
-    article h3 {
-        font-size: 1.75em;
     }
 
     .pic-text {

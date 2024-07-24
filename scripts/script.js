@@ -17,3 +17,10 @@ function hamburger() {
         logo.style.display = "none";
     }
 }
+
+function closeBox() {
+
+    var bubble = document.getElementById("question-sticky");
+    
+    bubble.style.display = "none";
+}
