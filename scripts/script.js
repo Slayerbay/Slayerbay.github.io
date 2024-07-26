@@ -1,7 +1,7 @@
 /*
 Student Name: Bailey Lucketta
 File Name: script.js
-Date: 07/07/2024
+Date: 07/26/2024
 */
 
 //Hamburger menu function
