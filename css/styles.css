@@ -306,7 +306,11 @@ footer p a{
         padding: 0.1em 0.75em;
     }
 
-    
+    /* Style rules for hero image */
+    #hero img {
+        width: 100%;
+    }
+
     /* Tablet Viewport: Style rules for main content area */
     main ul {
         margin: 0 0 4% 10%;
