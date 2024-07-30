@@ -481,12 +481,12 @@ footer p a{
 @media screen and (min-width: 1920px) {
 
     #container {
-        width: 1920px;
+        width: 100%x;
         margin: 0 auto;
     }
 
     table {
-        width: 1920px;
+        width: 80%;
     }
 }
 
