@@ -1,6 +1,6 @@
  /*
   Author: Bailey Lucketta
-  Date:07/26/2024
+  Date:07/31/2024
   File Name: styles.css 
 */
 
@@ -129,6 +129,17 @@ video {
     border-radius: 8px;
 }
 
+.gradient {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    background: radial-gradient(circle, #fff, #B2A08A);
+    padding: 1% 2%;
+    font-weight: bold;
+}
+
 .circle {
     border-radius: 50%;
 }
@@ -222,23 +233,18 @@ aside {
 }
 
 /* Style rules for temperament content */
-.gradient {
-    clear: left;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    background: radial-gradient(circle, #fff, #B2A08A);
-    padding: 1% 2%;
-    font-weight: bold;
-}
-
 #temperament dt {
     font-size: 1.5em;
 }
 
 #temperament dd {
     padding: 0.5% 1% 2% 0;
+}
+
+#temperament img {
+    margin: auto auto;
+    width: 65%;
+    box-shadow: 10px 10px 10px #555555; 
 }
 
 /* Style rules for footer content */
@@ -399,6 +405,7 @@ footer p a{
         font-size: 3em;
         float: right;
     }
+
 }
 
 /* Media Query for Desktop Viewport */
@@ -475,8 +482,13 @@ footer p a{
         grid-column: 1 / span 3;
     }
 
+    /* Desktop Viewport: Style rules for image elements */
     #about img {
         width: 40%;
+    }
+
+    #temperament img {
+        width: 35%;
     }
 }
 
